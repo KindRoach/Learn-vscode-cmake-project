@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "my_lib.hpp"
+
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    my_lib::say_hello();
+    std::cout << "Hello from main!" << std::endl;
 }
