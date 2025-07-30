@@ -1,0 +1,6 @@
+{
+    "name": "Learn-vscode-cmake-project Dev Container",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    }
+}
